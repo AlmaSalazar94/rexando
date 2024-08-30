@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Estilos globales */
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Encabezado */
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Menú interactivo */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Reduce el espacio entre los elementos */
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;  /* Cambié a negro para un contraste más fuerte */
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: #ffd4e2;  /* Fondo rosa para los enlaces */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ffb3c6; /* Un tono de rosa más oscuro al pasar el mouse */
+    color: #000;
+}
+
+/* Espacio para el ícono */
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Tamaño del contenedor del ícono */
+    height: 40px;
+    background-color: #ffd4e2; /* Fondo rosa para el contenedor del ícono */
+    border-radius: 50%; /* Redondea el fondo */
+}
+
+.nav-icon img {
+    width: 24px; /* Tamaño del ícono */
+    height: 24px;
+}
+
+
+/* Carrusel */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Presentación debajo del carrusel */
+.presentacion {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Sección Sinopsis */
+#sinopsis {
+    background-color: #fff;
+    padding: 40px;
+}
+
+#sinopsis img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#sinopsis h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ffd4e2; /* Título en rosa */
+}
+
+#sinopsis p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Sección Personajes */
+#personajes {
+    background-color: #ffd4e2; /* Fondo rosa para toda la sección */
+    padding: 40px;
+    text-align: center;
+}
+
+#personajes img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 4px solid #fff; /* Borde blanco para resaltar las imágenes */
+}
+
+#personajes h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #000; /* Título en negro */
+}
+
+#personajes p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #696969;
+}
+
+/* Sección OST */
+#ost {
+    background-color: #fff;
+    padding: 40px;
+}
+
+/* Pie de página */
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center; /* Alinea el texto al centro */
+}
+
